@@ -701,3 +701,13 @@ body {
 .contact-item a {
     color: #93c5fd;
 }
+
+/* Inline code in articles */
+.article-body code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    background: #f1f5f9;
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+    white-space: nowrap;
+}
